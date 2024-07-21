@@ -25,8 +25,19 @@ The records table updated every round.
 
 1. Clone the repository:
 
-   git clone https://github.com/barkarny/memory-matching-game.git
+   git clone  https://github.com/barkarny/Memory-game.git
+     
+3. Navigate to the project directory:
 
+   hw2/memory-game
+
+4. Install the dependencies:
+
+   npm install
+
+   
 2. Run command :
 
    node server.js
+   or
+   npm start
