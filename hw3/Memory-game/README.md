@@ -29,7 +29,7 @@ The records table updated every round.
      
 3. Navigate to the project directory:
 
-   hw2/memory-game
+   hw3/memory-game
 
 4. Install the dependencies:
 
