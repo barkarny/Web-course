@@ -1,0 +1,149 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+#config {
+    margin-bottom: 20px;
+}
+
+#gameSize {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#playerName {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#gameBoard {
+    display: grid;
+    place-items: center;
+    gap: 10px; /* Adjust the gap between grid items as needed */
+    width: 50%; /* Set the width of the grid */
+    margin: 0 auto; /* Center the grid horizontally */
+
+}
+
+.card {
+    width: 120px;
+    height: 160px;
+    margin: 10px;
+    perspective: 1000px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    transform-style: preserve-3d;  
+}
+
+
+.card.flipped img{
+    animation: flip1 3s forwards ;
+}
+img.front{
+    z-index: 2; /* Front card initially on top */
+    backface-visibility: hidden;
+
+}
+
+@keyframes flip1 {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}
+/* Flip animation 2 */
+
+@keyframes flip2 {
+    0% {
+        transform: rotateY(0deg) rotateZ(0deg);
+    }
+    25%{
+        transform: rotateY(180deg) rotateZ(-90deg) ;
+    }
+    50% {
+        transform: rotateY(180deg) rotateZ(1080deg) ;
+    }
+    100% {
+        transform: rotateY(180deg) rotateZ(0deg);
+    }
+}
+
+/* Flip animation 3 */
+@keyframes flip3 {
+    from {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    to {
+        transform: rotateY(180deg) rotateX(360deg);
+    }
+}
+
+#table {
+    position: fixed; /* Position the table relative to the viewport */
+    top: 20px; /* Distance from the top of the viewport */
+    right: 20px; /* Distance from the right of the viewport */
+    width: 200px; /* Set the width of the table */
+    height: auto; /* Allow the height to adjust based on content */
+    border: 1px solid black; /* Add a border for visibility */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  
+#table th, #table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#table th {
+    background-color: #f2f2f2;
+}
+
+#table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table tr:hover {
+    background-color: #787575;
+}
+

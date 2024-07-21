@@ -1,0 +1,8 @@
+[
+    { "animal": "penguin", "image": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlNV8zZF9jaGFyYWN0ZXJfaWxsdXN0cmF0aW9uX2NhcnRvb25fb2ZfYmFieV9wZW5ndV8wZGYxMjA0ZS1jYzAwLTQ2MTctYjk1My05ZDFkZTg0ODk2NzEucG5n.png" },
+    { "animal": "Fish", "image": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L2hpcHBvdW5pY29ybl8zZF9yZW5kZXJfY2hhcmFjdGVyX29mX29yYW5nZV9jYXJ0b29uX2Zpc2hfY3V0ZV9jYV9kYmQ5NmU5ZC1jYTczLTQ4ZjctODM0MS00OGJjNTg5NjgxYzAucG5n.png" },
+    { "animal": "Bird", "image": "https://images.rawpixel.com/image_png_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlNV8zZF9jaGFyYWN0ZXJfaWxsdXN0cmF0aW9uX2NhcnRvb25fb2ZfYmFieV9wYXJyb181OGU4NjI4Yy0yZGY2LTQ3YjEtOWUzOS1mY2U1ZmVjYTRkYmEucG5n.pngg" },
+    { "animal": "Elephant", "image": "https://images.rawpixel.com/image_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2pvYjY4Ni0yODAtdi5qcGc.jpg" },
+    { "animal": "Monkey", "image": "https://images.rawpixel.com/image_400/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2pvYjY4Ni0yNzUtdi5qcGc.jpg" }
+
+]
